@@ -11,21 +11,21 @@ This project was created **for practice purposes**, mainly to improve skills in:
 
 ## 🚀 Features
 
-🔐 User Authentication – Login with username & PIN
+- 🔐 User Authentication – Login with username & PIN
 
-💸 Money Transfers – Send money to other accounts
+- 💸 Money Transfers – Send money to other accounts
 
-🏦 Loan Requests – Request loans with conditions
+- 🏦 Loan Requests – Request loans with conditions
 
-❌ Close Account – Permanently delete an account
+- ❌ Close Account – Permanently delete an account
 
-📊 Transaction History – View deposits & withdrawals with dates
+- 📊 Transaction History – View deposits & withdrawals with dates
 
-🌍 Internationalization (i18n) – Dates & currencies formatted based on locale
+- 🌍 Internationalization (i18n) – Dates & currencies formatted based on locale
 
-⏳ Auto Logout Timer – User is logged out after inactivity
+- ⏳ Auto Logout Timer – User is logged out after inactivity
 
-🔄 Sorting – Sort transactions ascending/descending
+- 🔄 Sorting – Sort transactions ascending/descending
 
 
 
