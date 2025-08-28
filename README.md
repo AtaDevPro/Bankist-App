@@ -32,11 +32,11 @@ This project was created **for practice purposes**, mainly to improve skills in:
 
 ## 🧑‍💻 Technologies Used
 
-HTML5 – Semantic markup
+- HTML5 – Semantic markup
 
-CSS3 – Styling & layout
+- CSS3 – Styling & layout
 
-JavaScript (ES6+) – Core logic
+- JavaScript (ES6+) – Core logic
 
 
 ## 🧪 Demo Users
