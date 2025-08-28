@@ -28,13 +28,6 @@ This project was created **for practice purposes**, mainly to improve skills in:
 🔄 Sorting – Sort transactions ascending/descending
 
 
-## 📂 Project Structure
-
-Bankist-App/
-│── index.html
-│── style.css
-│── script.js   # Main logic
-│── README.md
 
 
 ## 🧑‍💻 Technologies Used
