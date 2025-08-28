@@ -1,0 +1,128 @@
+/*****************************/
+/* BELOW 1104px (desctops) */
+/*****************************/
+@media (max-width: 69em) {
+  .app {
+    margin: 4rem 6rem;
+  }
+}
+
+/*****************************/
+/* BELOW 944px  */
+/*****************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/*****************************/
+/* BELOW 752px (phones) */
+/*****************************/
+@media (max-width: 47em) {
+      html {
+      font-size: 50%;
+    }
+}
+
+/*****************************/
+/* BELOW 640px (phones) */
+/*****************************/
+@media (max-width: 40em) {
+  .app {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+  }
+
+  .balance {
+    grid-column: 1;
+  }
+
+  .movements {
+    grid-row: 2;
+    grid-column: 1;
+    height: 25rem; /* اختیاری برای محدود کردن ارتفاع */
+    max-height: 30rem;
+    overflow-y: auto;
+  }
+
+  .operation--transfer {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .operation--loan {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .operation--close {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .summary {
+    grid-column: 1;
+    grid-row: 6;
+  }
+}
+
+/*****************************/
+/* BELOW 480px (phones) */
+/*****************************/
+@media (max-width: 30em) {
+  html {
+    font-size: 45%;
+  }
+
+  .balance__value,
+  .summary__value {
+    font-size: 2.2rem;
+  }
+
+  .form__input {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+
+  .operation {
+    padding: 2rem;
+  }
+
+  .movements__value {
+    font-size: 1.4rem;
+  }
+}
+
+/*****************************/
+/* BELOW 360px (phones) */
+/*****************************/
+@media (max-width: 22.5em) {
+  html {
+    font-size: 40%;
+  }
+
+  .login__input {
+    width: 10rem;
+  }
+
+  .form__input {
+    font-size: 1rem;
+  }
+
+  .balance__value {
+    font-size: 2rem;
+  }
+
+  .logo {
+    height: 4rem;
+  }
+}
+
+/* 
+  - Font size system (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  
+  - Spacing System (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  */
